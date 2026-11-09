@@ -1,7 +1,7 @@
 🛡️ Genomic Auditor: High-Variance Signal Detection & Cross-Pathology Exclusion Framework 
 
 
-Genomic Auditor is an open-source, trans-species bioinformatic framework designed to isolate high-specificity biological signals from systemic tissue noise, metabolic stress, and general neuroinflammation.Bridging financial forensic auditing logic with epigenetic data analysis, this pipeline shifts the paradigm from traditional mean-expression statistics (p-values) to extreme variance signal detection (σ²) combined with rigid cross-pathology exclusion matrices.
+Genomic Auditor is an open-source, trans-species bioinformatic framework designed to isolate high-specificity biological signals from systemic tissue noise, metabolic stress, and general neuroinflammation. Bridging financial forensic auditing logic with epigenetic data analysis, this pipeline shifts the paradigm from traditional mean-expression statistics (p-values) to extreme variance signal detection (σ²) combined with rigid cross-pathology exclusion matrices.
 
 
 
