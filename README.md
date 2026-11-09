@@ -54,18 +54,27 @@ Trans-Species Validation: Demonstrated that serpin protease regulation logic, ma
 
 
 
-📁 Repository StructureFragmento de códigogenomic-auditor/
+# Genomic Auditor
+
+Bioinformatic framework for isolating high-specificity epigenetic signals via tri-pathology cross-exclusion.
+
+## Repository Structure
+
+```text
+genomic-auditor/
 ├── LICENSE
 ├── README.md
 ├── requirements.txt
 ├── modules/
-│   ├── variance_screener.py       # High-variance σ² detection logic
-│   └── exclusion_matrix.py        # Tri-pathology filter implementation
+│   ├── variance_screener.py  # High-variance σ² detection logic
+│   └── exclusion_matrix.py   # Tri-pathology filter implementation
 ├── workflows/
-│   ├── human_alzheimers/          # Human AD baseline validation pipeline
-│   └── bos_taurus_bse/            # Bovine BSE SERPINA3 isolation pipeline
+│   ├── human_alzheimers/     # Human AD baseline validation pipeline
+│   └── bos_taurus_bse/       # Bovine BSE SERPINA3 isolation pipeline
 └── data/
-    └── README.md                  # Instructions for fetching GEO accession datasets
+    └── README.md             # Instructions for fetching GEO accession datasets
+
+
 🚀 Quick Start Installation
 Bash
 git clone [https://github.com/belenabad-glitch/genomic-auditor.git]
