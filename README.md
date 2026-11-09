@@ -21,16 +21,23 @@ The Genomic Auditor operates through a two-stage forensic filter:
 [ Raw Epigenetic / Transcriptomic Data ]
                   │
                   ▼
+
+                  
    1. Extreme Variance Screening (σ² > p₉₅)
       └─ Identifies bimodal "switch" loci instead of linear averages.
+
                   │
                   ▼
-   2. Tri-Pathology Cross-Exclusion Matrix
+
+      
+   3. Tri-Pathology Cross-Exclusion Matrix
       ├─ Excludes AA Amyloidosis signatures
       ├─ Excludes Hepatic Encephalopathy signatures
       └─ Excludes Heat Stress / Ketosis noise
                   │
                   ▼
+
+      
  [ True Pathological Biomarkers (e.g., cg_SERPINA3) ]
 
 
