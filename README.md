@@ -16,30 +16,22 @@ Standard linear models (limma, DESeq2) frequently flag these high-expression str
 
 
 🔬 Algorithmic Architecture
+
+      
+
 The Genomic Auditor operates through a two-stage forensic filter:
 
-[ Raw Epigenetic / Transcriptomic Data ]
-                  │
-                  ▼
 
-                  
-   1. Extreme Variance Screening (σ² > p₉₅)
-      └─ Identifies bimodal "switch" loci instead of linear averages.
+1. **Extreme Variance Screening ($\sigma^2 > p_{95}$):** Identifies bimodal "switch" loci instead of relying on linear averages.
 
-                  │
-                  ▼
 
-      
-   3. Tri-Pathology Cross-Exclusion Matrix
-      ├─ Excludes AA Amyloidosis signatures
-      ├─ Excludes Hepatic Encephalopathy signatures
-      └─ Excludes Heat Stress / Ketosis noise
-                  │
-                  ▼
-
-      
- [ True Pathological Biomarkers (e.g., cg_SERPINA3) ]
-
+2. **Tri-Pathology Cross-Exclusion Matrix:** 
+   * Excludes AA Amyloidosis signatures.
+   * Excludes Hepatic Encephalopathy signatures.
+   * Excludes Heat Stress / Ketosis noise.
+  
+     
+3. **True Pathological Biomarkers Isolation:** Isolates specific high-specificity targets (e.g., `cg_SERPINA3`).
 
 
  Bimodal Switch Detection (σ²)
